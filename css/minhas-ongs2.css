@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+
+h5{
+    font-family: 'Lato';
+    font-style: italic;
+}
+
+.divisao{
+    display: flex;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.divisao hr{
+    width: 40%;
+    border: 0.03em solid #00000036;
+}
+
+/*cards*/
+.card-ongs{
+  justify-content: space-around;
+}
+
+.wrapper {
+
+  }
+  .wrapper .card {
+    border-radius: 30px 0px 0px 0px;
+    border: solid 3px #f67f00;
+    background-color: #f5f5f5;
+    align-items: center;
+  }
+
+  .card-img  {
+    text-align: center;
+  }
+  .card-img img {
+    border-radius: 30px 0px 0px 0px;
+
+    height: 150px;
+    object-fit: cover;
+    object-position: 0 center;
+    width: 100%;
+  }
+  .wrapper .card h3 {
+    padding: 10px 0;
+    font-size: 1.8em;
+    font-weight: 600;
+  }
+  .wrapper .card p {
+    color: #555;
+    text-align-last: center;
+  }
+
+  .btn-fixed {
+    background-color: rgb(27, 185, 27);
+    color:#fff;
+    position: fixed;
+    bottom:0;
+    right: 20px;
+    width:60px;
+    height:70px;
+    margin:5px;
+    border-radius:10px;
+  
+  }
+  .card-body{
+    width: 100%;
+    background: white;
+  }
+  
+  @media (max-width: 576px){
+    .card{
+      margin: 0 20px;
+    }
+
+    .wrapper{
+      margin: 10px 0;
+    }
+  }

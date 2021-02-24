@@ -1,0 +1,420 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: url("body.png");
+}
+#conteudo{
+  margin-top: 40px;
+}
+.top {
+  width: 100%;
+  background: #222 url("top.png");
+  border-bottom: 3px solid #ccc;
+}
+.header {
+  max-width: 1200px;
+  width: 98%;
+  height: 8.8em;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.header .social {
+  float: right;
+  padding: 35px 0 0 0;
+}
+.header .social img {
+  opacity: 0.85;
+  transition: all 0.3s;
+}
+.header .social img:hover {
+  opacity: 1;
+}
+.header h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  color: #fff;
+}
+.header h1 span {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.8em;
+}
+.header .author {
+  font-size: 0.8em;
+  font-weight: normal;
+  border-top: 1px dashed #555;
+  border-bottom: 1px dashed #555;
+  max-width: 160px;
+  text-align: center;
+  margin: -1em auto 0 auto;
+  padding: 0.3em;
+  text-transform: uppercase;
+  color: #ccc;
+}
+.content {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 0;
+}
+.img-lat {
+  float: left;
+  width: 10%;
+  color: #444;
+  text-align: center;
+}
+.img-lat span {
+  margin: 0;
+  line-height: 50%;
+}
+.img-lat .day {
+  float: left;
+  margin-top: 0.1em;
+  width: 100%;
+  color: #68a9ff;
+  font-size: 200%;
+}
+.img-lat-line {
+  display: none;
+}
+.article {
+  width: 90%;
+  margin: 0 0 6em 0;
+  float: left;
+  padding: 0 1.3em 0 1.3em;
+  border-left: 5px solid #f59300;
+}
+.article img {
+  width: 50%;
+  height: auto;
+  padding: 2%;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  background: url(https://subtlepatterns.com/patterns/ticks.png) #f78d03;
+}
+.article h2 {
+  font-weight: normal;
+  font-size: 30px;
+  color: #333;
+  margin: 0;
+}
+.article h3 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #888;
+  font-style: italic;
+  margin: 0 0 1em 0;
+}
+.article p {
+  margin: 0;
+  padding-top: 8px;
+  color: #555;
+  text-align: justify;
+  font-size: 1.4em;
+  line-height: 150%;
+  text-indent: 2em;
+}
+.article .firstpara {
+  text-indent: 0;
+}
+.article .pause {
+  margin: 2em auto 2em auto;
+  color: #444;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.article .firstcharacter {
+  float: left;
+  font-size: 4em;
+  line-height: 0.6em;
+  padding-top: 0.12em;
+  padding-right: 0.1em;
+  padding-left: 0;
+}
+.footer {
+    max-width: 1200px;
+    background: #292c2f;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+}
+.footer .copy {
+  float: right;
+  font-style: italic;
+  color: #888;
+  padding: 1% 1% 0 0;
+}
+.prev a, .next a {
+  position: fixed;
+  top: 9.6em;
+  padding: 1em;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.prev a:hover, .next a:hover {
+  background: #fff;
+}
+.prev a {
+  left: 0.7em;
+}
+.next a {
+  right: 0.7em;
+}
+.btn{
+  background: rgb(226, 124, 41);
+  color:#fff;
+  position: fixed;
+  bottom:0;
+  margin:5px;
+  right: 0px;
+  width:50px;
+  height:50px;
+}
+
+@media only screen and (max-width: 450px) {
+  .content {
+    margin-top: 2em;
+  }
+  .social {
+    display: none;
+  }
+  .img-lat {
+    display: none;
+  }
+  .img-lat-line {
+    display: inline;
+  }
+  .article {
+    width: 100%;
+    margin: 0 auto 2em auto;
+    border-left: none;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+  }
+  .article p {
+    font-size: 1.2em;
+  }
+  .header {
+    height: auto;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background: #222 url(https://subtlepatterns.com/patterns/navy_blue.png);
+  }
+  .header img {
+    height: 20px;
+    width: 20px;
+  }
+  .header h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: #f1f1f1;
+  }
+  .header h1 span {
+    font-size: 80%;
+  }
+  .header .author {
+    display: none;
+  }
+  .footer {
+    text-align: center;
+    padding: 3%;
+    height: 40px;
+  }
+  .footer .copy {
+    float: none;
+  }
+  .prev a, .next a {
+    position: relative;
+    margin-bottom: 2em;
+    text-align: center;
+    top: 0;
+  }
+  .prev a {
+    float: left;
+    width: 40%;
+  }
+  .next a {
+    float: right;
+    width: 40%;
+  }
+}
+::selection {
+  color: white;
+  background: #444;
+}
+
+
+
+.card-deck {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 10rem 10% 6rem;
+    display: grid;
+    grid: auto / repeat(auto-fit, minmax(var(--card-width), 1fr));
+    grid-auto-flow: row dense;
+    grid-gap: 0;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    background-color: var(--background-color);
+}
+.card-deck .card {
+    margin: calc(var(--grid-gap) / 2);
+    max-width: calc(var(--card-width) * 1.4);
+}
+.card-deck__title {
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 2rem 0;
+    width: 90%;
+    text-align: center;
+    line-height: 0.9em;
+    font-weight: 100;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.card-deck--regular {
+    --card-width: 268px;
+    --grid-gap: 2.5rem;
+    --background-color: #f6f6f6;
+}
+.card-deck--regular .card {
+    padding: 1.7rem 1.2rem 1.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 3px 8px #000 1a;
+}
+.card-deck--regular .card h3 {
+  margin: 15px;
+  font-size: 1rem;
+  font-size:large;
+  color: #333;
+}
+.card-deck--regular .card h5 {
+  margin: 20px;
+  font-size: 1px;
+  color: #888;
+  font-size: unset;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+  color:#555;
+}
+.card-deck--regular .card__image {
+    margin: 0.5rem;
+    width: 87px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-deck--open {
+    --card-width: 360px;
+    --grid-gap: 3vw;
+    --background-color: #fff;
+}
+.card-deck--open .card {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    text-align: left;
+}
+.card-deck--open .card h3 {
+    margin-bottom: 0.65rem;
+    font-size: 1.35rem;
+    line-height: 1em;
+}
+.card-deck--open .card p {
+    margin-top: 0.5rem;
+}
+.card-deck--open .card__image {
+    margin: 1.1rem 2.2rem 1.1rem 0;
+    width: 87px;
+    height: 87px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-deck--half-and-half {
+    --card-width: 256px;
+    --grid-gap: 2rem;
+    --background-color: #f2f2f2;
+    --header-height: 8.5rem;
+    --border-radius: 8px;
+}
+.card-deck--half-and-half .card {
+    position: relative;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 3px 8px #000 1a;
+}
+.card-deck--half-and-half .card__image {
+    position: absolute;
+    top: var(--header-height);
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 0;
+    padding: 0.9rem;
+    display: flex;
+    transform: translate(-50%, -50%);
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px #000 1a inset;
+}
+
+.icon {
+    height: 100%;
+    width: 100%;
+}
+.icon--smaller {
+    height: 95%;
+    width: 95%;
+}
+.icon--smallest {
+    height: 74%;
+    width: 74%;
+}
+.icon-credit {
+    margin: 1rem 2rem;
+    width: calc(100% - 4rem);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.3em;
+    letter-spacing: 0.11em;
+    font-weight: 300;
+    color: #aaa;
+}
+.icon-credit a {
+    color: #aaa;
+}
+
+
+@media (max-width: 576px){
+  #conteudo{
+    margin-top: 0px;
+  }
+}

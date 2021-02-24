@@ -1,0 +1,26 @@
+h2 i{
+    color:orange;
+    margin:6px;
+}
+#um{
+    color:#ffd700;
+    margin:6px;
+}
+#dois{
+    color:#d5d5d5;
+    margin:6px;
+}
+#tres{
+    color:#c49c48;
+    margin:6px;
+}
+#star{
+    color:#ffd700;
+}
+#ico{
+    margin:6px;
+}
+#table{
+    border-radius: 8px;
+    box-shadow: 9px 7px rgba(255, 168, 68, 0.77);
+}
