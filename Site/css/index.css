@@ -121,6 +121,31 @@ header {
   height: 35vh;
 }
 
+
+.logotipo-index {
+  width: 38%;
+  margin: -48px 0;
+}
+.svg-animation{
+  transition: 1s ease;
+}
+
+.logotipo-index:hover > .svg-animation{
+  animation: teste 1s ease linear infinite ;
+  width: 100px;
+}
+
+@keyframes teste{
+  0%{
+    transform: scale(1px);
+    width: 200px;
+  }
+  100%{
+    transform: scale(2px);
+
+  }
+}
+
 .conteudo-index button {
   background: none;
   height: 50px;

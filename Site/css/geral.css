@@ -102,10 +102,6 @@ body, html {
   display: block;
 }
 
-.logotipo {
-  width: 50px;
-}
-
 .logotipo:hover {
   animation: pulse 2s infinite;
   animation-duration: infinite;
